@@ -115,6 +115,7 @@ class Sketch {
             promises.push(
                 new Promise((fulfill, reject) => {
                     if (file.dir) {
+                        fulfill();
                         return;
                     }
 
